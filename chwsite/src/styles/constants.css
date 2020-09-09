@@ -1,0 +1,7 @@
+:root {
+    --color-primary: white;
+    --color-secondary: rgb(255, 230, 234);
+    --color-option: rgb(245, 245, 245);
+    --color-background: #f1f2f5;
+    --font-primary: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

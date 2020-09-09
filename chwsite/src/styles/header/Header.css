@@ -1,0 +1,47 @@
+@import "../constants.css";
+
+.header {
+    background-color: var(--color-secondary);
+    box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 0.75);
+}
+
+.header__title {
+    text-align-last: center;
+    padding: 15px;
+    border-bottom: 1px solid black;
+    font-family: var(--font-primary);
+}
+
+.header__options {
+    display: flex;
+    justify-content: center;
+}
+
+.header__option {
+    align-items: center;
+    padding: 10px 5px;
+    font-size: small;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: flex;
+    font-family: var(--font-primary);
+}
+
+.header__option > h3 {
+    margin-left: 5px;
+    text-align: center;
+}
+
+.header__option:hover {
+    cursor: pointer;
+    background-color: var(--color-option);
+    border-radius: 10px;
+}
+
+.header__option--active > .MuiSvgIcon-root {
+    color: #2e81f4;
+}
+
+.header__option--active {
+    border-bottom: 4px solid #2e81f4;
+}

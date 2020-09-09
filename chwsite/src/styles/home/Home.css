@@ -1,0 +1,31 @@
+@import "../constants.css";
+
+.home {
+    justify-content: center;
+}
+
+.introduction__title {
+    text-align: center;
+    margin: 10px;
+    font-family: var(--font-primary);
+}
+
+.introduction__image {
+    width: 100%;
+    align-content: center;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.introduction__summary {
+    text-align: center;
+    font-family: var(--font-primary);
+}
+
+.introduction__summary > p{
+    padding: 30px;
+}
+
+.introduction {
+    padding-bottom: 10px;
+}
