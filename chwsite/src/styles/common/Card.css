@@ -1,0 +1,9 @@
+@import "../constants.css";
+
+.card {
+    justify-content: center;
+    margin: 20px;
+    background-color: var(--color-primary);
+    border-radius: 10px;
+    box-shadow: 0px 5px 17px -7px rgba(0, 0, 0, 0.75);
+}
