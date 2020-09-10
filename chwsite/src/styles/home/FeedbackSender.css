@@ -1,0 +1,91 @@
+@import "../constants.css";
+
+.feedbackSender {
+    justify-content: center;
+}
+
+.feedbackSender__top {
+    padding: 20px;
+    text-align: center;
+}
+
+.feedbackSender__top > h1{
+    font-family: var(--font-primary);
+}
+
+.feedbackSender__top > h2{
+    font-family: var(--font-primary);
+    color: gray;
+    margin-top: 10px;
+}
+
+.feedbackSender__center {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.feedbackSender__name {
+    display: flex;
+    align-content: space-between;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.feedbackSender__name > input {
+    height: 30px;
+    width: 400px;
+    background-color: transparent;
+    border:none;
+    border-bottom: 1px solid gray;
+    padding: 5px 10px;
+    outline: none;
+    margin: 10px;
+}
+
+.feedbackSender__email {
+    display: flex;
+    align-content: space-between;
+    justify-content: center;
+    align-items: center;
+}
+
+.feedbackSender__email > input {
+    height: 30px;
+    width: 400px;
+    background-color: transparent;
+    border:none;
+    border-bottom: 1px solid gray;
+    padding: 5px 10px;
+    outline: none;
+    margin: 10px;
+}
+
+.feedbackSender__comment {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.feedbackSender__comment > textarea {
+    width: 800px;
+    height: 200px;
+    max-height: 200px;
+    min-height: 50px;
+    min-width: 800px;
+    max-width: 800px;
+    background-color: transparent;
+    border:none;
+    border-bottom: 1px solid gray;
+    padding: 5px 10px;
+    outline: none;
+}
+
+.feedbackSender__bottom {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
