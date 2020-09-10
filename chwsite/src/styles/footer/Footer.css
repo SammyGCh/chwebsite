@@ -1,0 +1,23 @@
+@import "../constants.css";
+
+.footer {
+    width: 100%;
+    height: 80px;
+    background-color: var(--color-secondary);
+    display: flex;
+    justify-content: center;
+}
+
+.footer__copyright {
+    padding: 30px;
+}
+
+.footer__copyright > p {
+    font-family: var(--font-primary);
+    font-size: medium;
+}
+
+.footer__socialMedias {
+    display: flex;
+    padding: 15px;
+}
