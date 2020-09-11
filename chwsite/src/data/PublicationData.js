@@ -16,7 +16,7 @@ export const PUBLICATIONDATA = [
     name: 'Perdiendo el miedo 2',
     summary: 'Perdiendo el mideo de escribir para ustedes.',
     date: '10 agosto',
-    views: '10K',
+    views: '1000',
     isTop: true
   },
   {

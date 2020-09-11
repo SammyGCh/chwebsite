@@ -27,8 +27,11 @@
 .publicationSummary__top {
     display: flex;
     padding: 15px;
-    position: relative;
     align-items: center;
+}
+
+.publicationSummary__top > .MuiAvatar-root {
+    position: static; /*Esto arregló que se viera encima del Header */
 }
 
 .publicationSummary__topInfo {
@@ -63,26 +66,12 @@
 
 .publicationSummary__bottom {
     display: flex;
-    align-content: space-between;
-    margin: 10px;
-    align-items: center;
-    padding: 5px;
-    overflow: hidden;
-    position: relative;
-    width: 100%;
-    min-height: 36px;
-}
-
-.publicationSummary__bottom > p {
-    margin-right: 10px;
-    margin-left: auto;
+    margin: 1em;
+    padding: 10px;
 }
 
 .publicationSummary__bottomViews {
     display: flex;
-    position: absolute;
-    left: 9px;
-    top: 20px;
 }
 
 .publicationSummary__bottomViews > .MuiSvgIcon-root {
@@ -98,13 +87,19 @@
 }
 
 .publicationSummary__bottomIcon {
-    position: absolute;
-    right: 30px;
-    top: 13px;
+    margin-left: auto;
+}
+
+.publicationSummary__bottomIcon > .MuiIconButton-root {
+    position: static; /*Esto arregló que se viera encima del Header */
 }
 
 .topPublicationsContainer__option {
     margin: 0 auto;
     padding: 20px;
     text-align: center;
+}
+
+.topPublicationsContainer__option .MuiButton-root{
+    position: static; /*Esto arregló que se viera encima del Header */
 }

@@ -15,7 +15,7 @@ function FeedbackSender() {
         <div className="feedbackSender__center">
           <form>
             <div className="feedbackSender__name">
-              <input placeholder="Nombre (s)" required="true"/>
+              <input placeholder="Nombre (s)" required={true}/>
               <input placeholder="Apellidos"/>
             </div>
 

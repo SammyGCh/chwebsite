@@ -12,7 +12,9 @@ function PublicationSummary(props) {
         <img alt="" src={image} />
 
         <div className="publicationSummary__top">
-          <Avatar src="https://static.wixstatic.com/media/f65fa9_ccbe027f7b2247e5bf22c6752882a768%7Emv2.jpg/v1/fit/w_500,h_500,al_c,q_80/file.jpg" />
+          <Avatar
+            src="https://static.wixstatic.com/media/f65fa9_ccbe027f7b2247e5bf22c6752882a768%7Emv2.jpg/v1/fit/w_500,h_500,al_c,q_80/file.jpg"
+          />
 
           <div className="publicationSummary__topInfo">
             <h3>CarolinaH</h3>
